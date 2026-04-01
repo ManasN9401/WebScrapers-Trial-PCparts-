@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Irrelevant PC Parts</title>
+    <style>
+        .product { border: 1px solid #ccc; padding: 10px; margin: 10px; }
+        .price { color: green; font-weight: bold; }
+        .out-of-stock { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Irrelevant PC Parts!</h1>
+    
+    <div id="product-list">
+        <!-- Product 1 -->
+        <div class="product">
+            <h2 class="name"><a href="/item/1">NVIDIA GeForce RTX 5090 Founders Edition</a></h2>
+            <p>Super fast rendering GPU.</p>
+            <span class="price">$1,999.99</span>
+            <div class="stock-status">In Stock: <span class="avail">Yes</span></div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product">
+            <h2 class="name"><a href="/item/2">AMD Ryzen 9 8950X Processor</a></h2>
+            <p>Next gen CPU for gaming.</p>
+            <span class="price">$699.00</span>
+            <div class="stock-status">In Stock: <span class="avail">Yes</span></div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <h2 class="name"><a href="/item/3">Corsair Vengeance 64GB DDR5 RAM</a></h2>
+            <p>Fast memory.</p>
+            <span class="price">$250.50</span>
+            <div class="stock-status">In Stock: <span class="avail out-of-stock">Out of Stock</span></div>
+        </div>
+        
+        <!-- Product 4 -->
+        <div class="product">
+            <h2 class="name"><a href="/item/4">ASUS ROG Strix RTX 4080 Super</a></h2>
+            <p>Great cooling GPU.</p>
+            <span class="price">$1,100.00</span>
+            <div class="stock-status">In Stock: <span class="avail">Yes</span></div>
+        </div>
+    </div>
+</body>
+</html>
